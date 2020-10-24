@@ -1,1 +1,1 @@
-### authication with jwt/passport/stratigies
+### authication with jwt/passport/strategies
