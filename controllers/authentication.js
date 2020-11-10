@@ -17,4 +17,8 @@ module.exports = {
     console.log("i managed to get in");
     res.status(200).json({ sucess: "success" });
   },
+  protected: async (req, res, next) => {
+    console.log("i managed to get in protected");
+    res.status(200).send({ token: req.user });
+  },
 };
